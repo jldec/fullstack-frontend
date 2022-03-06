@@ -1,7 +1,7 @@
 # Fastify + Svelte
 
 Experimental frontend using [SvelteKit](https://kit.svelte.dev/).
-The frontend calls the server api when a button is clicked, and renders the response.
+The frontend calls the server API when a button is clicked, and renders the response.
 
 ### Install dependencies
 
