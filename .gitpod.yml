@@ -23,7 +23,8 @@ tasks:
       export FULLSTACK_FRONTEND=`gp url 3000`
       npm start
 
-workspaceLocation: fullstack-frontend/fullstack.code-workspace
+workspaceLocation:
+  fullstack-frontend/fullstack.code-workspace
 
 vscode:
   extensions:
