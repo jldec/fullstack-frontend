@@ -1,0 +1,32 @@
+additionalRepositories:
+  - url: https://github.com/jldec/fullstack-backend
+
+tasks:
+  - name: frontend
+    init: |
+      npm install
+      npm run build
+    command: |
+      # Configure the backend API
+      export FULLSTACK_BACKEND=`gp url 3001`
+      npm run dev
+
+  - name: backend
+    before: |
+      cd ../fullstack-backend
+    init: |
+      npm install
+    command: |
+      # configure the frontend for CORS
+      export FULLSTACK_FRONTEND=`gp url 3000`
+      npm start
+
+vscode:
+  extensions:
+    - svelte.svelte-vscode
+
+github:
+  prebuilds:
+    master: true
+    branches: true
+    pullRequests: true

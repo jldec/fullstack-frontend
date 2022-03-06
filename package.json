@@ -1,0 +1,19 @@
+{
+  "name": "fullstack-frontend",
+  "description": "Experimental Fastify + SvelteKit frontend.",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "svelte-kit dev",
+    "build": "svelte-kit build",
+    "package": "svelte-kit package",
+    "preview": "svelte-kit preview"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-static": "next",
+    "@sveltejs/kit": "next",
+    "svelte": "^3.46.4"
+  },
+  "author": "github.com/jldec",
+  "license": "MIT",
+  "type": "module"
+}
