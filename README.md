@@ -20,7 +20,7 @@ npm run dev
 ```
 
 ### Build frontend
-Builds static site into the `frontend/build` directory.
+Builds static site into the `build` directory.
 
 ```sh
 # Configure backend URL to target from statically compiled frontend
