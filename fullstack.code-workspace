@@ -5,7 +5,7 @@
 			"path": "."
 		},
 		{
-			"path": "../fullstack-backend"
+			"path": "../fullstack-backend-dir"
 		}
 	],
 	"settings": {}
