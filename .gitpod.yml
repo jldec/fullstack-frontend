@@ -2,7 +2,7 @@
 # multi-repo
 additionalRepositories:
   - url: https://github.com/jldec/fullstack-backend
-  - checkoutLocation: backend-dir
+    checkoutLocation: backend-dir
 
 tasks:
   - name: frontend
