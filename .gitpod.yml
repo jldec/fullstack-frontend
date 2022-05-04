@@ -2,6 +2,7 @@
 # multi-repo
 additionalRepositories:
   - url: https://github.com/jldec/fullstack-backend
+  - checkoutLocation: backend-dir
 
 tasks:
   - name: frontend
@@ -15,7 +16,7 @@ tasks:
 
   - name: backend
     before: |
-      cd ../fullstack-backend
+      cd ../fullstack-backend-dir
     init: |
       npm install
     command: |
