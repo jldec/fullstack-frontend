@@ -34,5 +34,5 @@ vscode:
 github:
   prebuilds:
     master: true
-    branches: true
-    pullRequests: true
+    branches: false
+    pullRequests: false
